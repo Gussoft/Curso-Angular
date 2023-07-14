@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Iniciar el proyecto y guardar el mismo
+git init
+git add .
+git commit -m "name commit"
+git checkout -- .
+git remote add origin https://github.com/Gussoft/Curso-Angular.git
+branch -M main      -> rename branch
+git push -u origin main
+    git push
